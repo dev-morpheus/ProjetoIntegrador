@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.GerenciadorDeAtendimento = void 0;
-const MinHeap_1 = require("../estruturas/MinHeap");
+const MinHeap_1 = require("../structs/MinHeap");
 class GerenciadorDeAtendimento {
     constructor() {
         this.medico = null;

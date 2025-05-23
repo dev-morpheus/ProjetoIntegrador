@@ -1,7 +1,7 @@
 
-import { Paciente, NivelPrioridadeSUS } from '../modelos/Paciente';
-import { Medico } from '../modelos/Medico';
-import { MinHeap } from '../estruturas/MinHeap';
+import { Paciente, NivelPrioridadeSUS } from '../models/Paciente';
+import { Medico } from '../models/Medico';
+import { MinHeap } from '../structs/MinHeap';
 
 export class GerenciadorDeAtendimento {
   private fila: MinHeap<Paciente>;

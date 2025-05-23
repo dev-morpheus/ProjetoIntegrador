@@ -9,9 +9,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Medico_1 = require("./modelos/Medico");
-const Paciente_1 = require("./modelos/Paciente");
-const GerenciadorDeAtendimento_1 = require("./sistema/GerenciadorDeAtendimento");
+const Medico_1 = require("./models/Medico");
+const Paciente_1 = require("./models/Paciente");
+const GerenciadorDeAtendimento_1 = require("./system/GerenciadorDeAtendimento");
 const leitura_1 = require("./util/leitura");
 function adicionarPacienteInterativamente(gerenciador) {
     return __awaiter(this, void 0, void 0, function* () {
